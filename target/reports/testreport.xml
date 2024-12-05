@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.462" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Account Creation for a customer" name="To create a account for a new customer - #1.1" time="17.276">
+<system-out><![CDATA[
+Given Open the browser and go the store URL.................................passed
+And Select the Create An Account option.....................................passed
+When Enter the "Spring" and "Potato" under personal information.............passed
+And Enter the "lumatestingdemo@gmail.com" and "Hello@12345" under sign-in information.passed
+And Again re-enter the same password in "Hello@12345".......................passed
+Then Click on Create An Accounts............................................passed
+And Check for the "Thank you for registering with Main Website Store."......passed
+]]></system-out>
+</testcase>
+</testsuite>
